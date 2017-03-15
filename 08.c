@@ -14,7 +14,7 @@ int main()
     printf("Number of random elements: ");          // read number of random elements
     scanf("%d", &N);
     srand((int)time(NULL));                         
-    randArray = (float*)malloc(N * sizeof(int));    // allocate memory for the array
+    randArray = (float*)malloc(N * sizeof(float));    // allocate memory for the array
     float mean = 0.0;
     for (int i=0; i< N; i++)    
     {
